@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 3 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-POM_Framework_Learning">
+              <span class="suite-name border-failed">POM Framework Learning</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-POM_Framework_Learning">
+                    <span>C:\Users\DELL\neonworkspace\POM_Pro\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-POM_Framework_Learning">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-POM_Framework_Learning">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-POM_Framework_Learning">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-POM_Framework_Learning">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-POM_Framework_Learning">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-POM_Framework_Learning">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods, 3 failed,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-POM_Framework_Learning" class="hide-methods failed suite-POM_Framework_Learning"> (hide)</a> <!-- hide-methods failed suite-POM_Framework_Learning -->
+                      <a href="#" panel-name="suite-POM_Framework_Learning" class="show-methods failed suite-POM_Framework_Learning"> (show)</a> <!-- show-methods failed suite-POM_Framework_Learning -->
+                    </span>
+                    <div class="method-list-content failed suite-POM_Framework_Learning">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-POM_Framework_Learning" title="com.testcases.LandingPageTest" hash-for-method="testActivityLog">testActivityLog</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-POM_Framework_Learning" title="com.testcases.LoginTest" hash-for-method="testFooterLinks">testFooterLinks</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-POM_Framework_Learning" title="com.testcases.LandingPageTest" hash-for-method="verifyActivityLogText">verifyActivityLogText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-POM_Framework_Learning -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-POM_Framework_Learning" class="hide-methods passed suite-POM_Framework_Learning"> (hide)</a> <!-- hide-methods passed suite-POM_Framework_Learning -->
+                      <a href="#" panel-name="suite-POM_Framework_Learning" class="show-methods passed suite-POM_Framework_Learning"> (show)</a> <!-- show-methods passed suite-POM_Framework_Learning -->
+                    </span>
+                    <div class="method-list-content passed suite-POM_Framework_Learning">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-POM_Framework_Learning" title="com.testcases.LoginTest" hash-for-method="testGlobalImage">testGlobalImage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-POM_Framework_Learning" title="com.testcases.LoginTest" hash-for-method="testInValidLogin">testInValidLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-POM_Framework_Learning" title="com.testcases.LoginTest" hash-for-method="testMainText">testMainText</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-POM_Framework_Learning" title="com.testcases.LoginTest" hash-for-method="testValidLogin">testValidLogin</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-POM_Framework_Learning -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-POM_Framework_Learning" class="panel POM_Framework_Learning">
+          <div class="suite-POM_Framework_Learning-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.testcases.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testFooterLinks">
+                  </a> <!-- testFooterLinks -->
+                  <span class="method-name">testFooterLinks</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [28] but found [27]
+	at com.testcases.LoginTest.testFooterLinks(LoginTest.java:37)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-POM_Framework_Learning-class-failed -->
+          <div class="suite-POM_Framework_Learning-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.testcases.LandingPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testActivityLog">
+                  </a> <!-- testActivityLog -->
+                  <span class="method-name">testActivityLog</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchElementException: Unable to locate element: ._5lxt f_click
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: &apos;3.0.1&apos;, revision: &apos;1969d75&apos;, time: &apos;2016-10-18 09:49:13 -0700&apos;
+System info: host: &apos;DELL-PC&apos;, ip: &apos;192.168.0.12&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_111&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{rotatable=false, raisesAccessibilityExceptions=false, marionette=true, firefoxOptions={args=[], prefs={}}, appBuildId=20161129173726, version=, platform=XP, proxy={}, command_id=1, specificationLevel=0, acceptSslCerts=false, processId=7960, browserVersion=50.0.2, platformVersion=6.1, XULappId={ec8030f7-c20a-464f-9b0e-13a3a9e97384}, browserName=firefox, takesScreenshot=true, takesElementScreenshot=true, platformName=windows_nt}]
+Session ID: af8517a5-be68-40b4-b3c4-e299ab7330f9
+*** Element info: {Using=class name, value=_5lxt f_click}
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:127)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:93)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:42)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:82)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:368)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByClassName(RemoteWebDriver.java:457)
+	at org.openqa.selenium.By$ByClassName.findElement(By.java:391)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:360)
+	at com.pages.LandingPage.navigateToActivityLog(LandingPage.java:14)
+	at com.testcases.LandingPageTest.testActivityLog(LandingPageTest.java:14)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyActivityLogText">
+                  </a> <!-- verifyActivityLogText -->
+                  <span class="method-name">verifyActivityLogText</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [sample] but found [null]
+	at com.testcases.LandingPageTest.verifyActivityLogText(LandingPageTest.java:21)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-POM_Framework_Learning-class-failed -->
+          <div class="suite-POM_Framework_Learning-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.testcases.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testGlobalImage">
+                  </a> <!-- testGlobalImage -->
+                  <span class="method-name">testGlobalImage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testInValidLogin">
+                  </a> <!-- testInValidLogin -->
+                  <span class="method-name">testInValidLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testMainText">
+                  </a> <!-- testMainText -->
+                  <span class="method-name">testMainText</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidLogin">
+                  </a> <!-- testValidLogin -->
+                  <span class="method-name">testValidLogin</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-POM_Framework_Learning-class-passed -->
+        </div> <!-- panel POM_Framework_Learning -->
+        <div panel-name="test-xml-POM_Framework_Learning" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\DELL\neonworkspace\POM_Pro\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;POM Framework Learning&quot;&gt;
+  &lt;test name=&quot;Login Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.testcases.LoginTest&quot;/&gt;
+      &lt;class name=&quot;com.testcases.LandingPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Login Test --&gt;
+&lt;/suite&gt; &lt;!-- POM Framework Learning --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-POM_Framework_Learning" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for POM Framework Learning</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Login Test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-POM_Framework_Learning" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for POM Framework Learning</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-POM_Framework_Learning" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for POM Framework Learning</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_POM_Framework_Learning');
+function tableData_POM_Framework_Learning() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testActivityLog')
+data.setCell(0, 2, 'com.testcases.LandingPageTest')
+data.setCell(0, 3, 23555);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testFooterLinks')
+data.setCell(1, 2, 'com.testcases.LoginTest')
+data.setCell(1, 3, 4601);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testGlobalImage')
+data.setCell(2, 2, 'com.testcases.LoginTest')
+data.setCell(2, 3, 3080);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testMainText')
+data.setCell(3, 2, 'com.testcases.LoginTest')
+data.setCell(3, 3, 2946);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testInValidLogin')
+data.setCell(4, 2, 'com.testcases.LoginTest')
+data.setCell(4, 3, 2635);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testValidLogin')
+data.setCell(5, 2, 'com.testcases.LoginTest')
+data.setCell(5, 3, 1768);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyActivityLogText')
+data.setCell(6, 2, 'com.testcases.LandingPageTest')
+data.setCell(6, 3, 120);
+window.suiteTableData['POM_Framework_Learning']= { tableData: data, tableDiv: 'times-div-POM_Framework_Learning'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 38 seconds</span>
+              <div id="times-div-POM_Framework_Learning">
+              </div> <!-- times-div-POM_Framework_Learning -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-POM_Framework_Learning" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for POM Framework Learning</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-POM_Framework_Learning" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-POM_Framework_Learning" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcases.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testFooterLinks</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testGlobalImage</span>
+                <span class="method-start">4627 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testInValidLogin</span>
+                <span class="method-start">7715 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testMainText</span>
+                <span class="method-start">10355 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">testValidLogin</span>
+                <span class="method-start">13307 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.testcases.LandingPageTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testActivityLog</span>
+                <span class="method-start">15079 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyActivityLogText</span>
+                <span class="method-start">38648 ms</span>
+              </div> <!-- test-method -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

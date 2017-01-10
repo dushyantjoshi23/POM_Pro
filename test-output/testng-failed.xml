@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [POM Framework Learning]">
+  <test name="Login Test(failed)">
+    <classes>
+      <class name="com.testcases.LoginTest">
+        <methods>
+          <include name="testFooterLinks"/>
+        </methods>
+      </class> <!-- com.testcases.LoginTest -->
+      <class name="com.testcases.LandingPageTest">
+        <methods>
+          <include name="verifyActivityLogText"/>
+          <include name="testActivityLog"/>
+        </methods>
+      </class> <!-- com.testcases.LandingPageTest -->
+    </classes>
+  </test> <!-- Login Test(failed) -->
+</suite> <!-- Failed suite [POM Framework Learning] -->
